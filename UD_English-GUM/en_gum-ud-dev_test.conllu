@@ -1,0 +1,104 @@
+# newdoc id = GUM_academic_exposure
+# global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Kara Morgan-Short, Ingrid Finger, Sarah Grey, Michael T. Ullman
+# meta::dateCollected = 2018-09-11
+# meta::dateCreated = 2012-03-28
+# meta::dateModified = 2012-03-28
+# meta::genre = academic
+# meta::sourceURL = https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0032974
+# meta::speakerCount = 0
+# meta::summary = This study shows that limited exposure to a second language (L2) after it is no longer being actively used generally causes attrition of L2 competence.
+# meta::title = Second Language Processing Shows Increased Native-Like Neural Responses after Months of No Exposure
+# sent_id = GUM_academic_exposure-1
+# s_prominence = 2
+# s_type = frag
+# transition = establishment
+# text = Introduction
+# newpar
+# newpar_block = head (1 s)
+1	Introduction	introduction	NOUN	NN	Number=Sing	0	root	0:root	Discourse=organization-heading:1->29:3|Entity=(1-abstract-new-cf1-1-sgl)
+
+# sent_id = GUM_academic_exposure-2
+# s_prominence = 3
+# s_type = decl
+# transition = null
+# text = Research on adult-learned second language (L2) has provided considerable insight into the neurocognitive mechanisms underlying the learning and processing of L2 grammar [1]–[11].
+# newpar
+# newpar_block = p (8 s)
+1	Research	research	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Discourse=context-background:2->14:2|Entity=(2-abstract-new-cf2-1-coref
+2	on	on	ADP	IN	_	7	case	7:case	_
+3	adult	adult	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(3-abstract-new-cf1-5-coref|SpaceAfter=No|XML=<w>
+4	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
+5	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	7:amod	XML=</w>
+6	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	7:amod	_
+7	language	language	NOUN	NN	Number=Sing	1	nmod	1:nmod:on	Entity=3)
+8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=restatement-partial:3->2:0|SpaceAfter=No
+9	L2	L2	NOUN	NN	Number=Sing	7	appos	7:appos	Entity=(3-abstract-giv:act-cf1-1-appos)|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	punct	9:punct	Entity=2)
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	Discourse=same-unit_m:4->2:1
+12	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+13	considerable	considerable	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(4-abstract-new-cf4-2-sgl
+14	insight	insight	NOUN	NN	Number=Sing	12	obj	12:obj	_
+15	into	into	ADP	IN	_	18	case	18:case	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(5-abstract-new-cf5-3-sgl
+17	neurocognitive	neurocognitive	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
+18	mechanisms	mechanism	NOUN	NNS	Number=Plur	14	nmod	14:nmod:into	_
+19	underlying	underlie	VERB	VBG	VerbForm=Ger	18	acl	18:acl	Discourse=elaboration-attribute:5->4:0
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(6-abstract-new-cf3-2,4-sgl
+21	learning	learning	NOUN	NN	Number=Sing	19	obj	19:obj	_
+22	and	and	CCONJ	CC	_	23	cc	23:cc	_
+23	processing	processing	NOUN	NN	Number=Sing	21	conj	19:obj|21:conj:and	_
+24	of	of	ADP	IN	_	26	case	26:case	_
+25	L2	L2	NOUN	NN	Number=Sing	26	compound	26:compound	Entity=(7-abstract-new-cf6-2-coref(3-abstract-giv:act-cf1-1-coref)
+26	grammar	grammar	NOUN	NN	Number=Sing	21	nmod	21:nmod:of	Entity=7)6)5)4)
+27	[	[	PUNCT	-LRB-	_	28	punct	28:punct	Discourse=explanation-evidence:6->2:2|SpaceAfter=No|XML=<w>
+28	1	1	NUM	CD	NumForm=Digit|NumType=Card	12	dep	12:dep	Entity=(8-abstract-new-cf7-1-sgl)|SpaceAfter=No
+29	]	]	PUNCT	-RRB-	_	28	punct	28:punct	SpaceAfter=No
+30	–	-	SYM	SYM	_	32	case	32:case	SpaceAfter=No
+31	[	[	PUNCT	-LRB-	_	32	punct	32:punct	SpaceAfter=No
+32	11	11	NUM	CD	NumForm=Digit|NumType=Card	28	nmod	28:nmod:to	Entity=(9-abstract-new-cf8-1-sgl)|SpaceAfter=No
+33	]	]	PUNCT	-RRB-	_	32	punct	32:punct	SpaceAfter=No
+34	.	.	PUNCT	.	_	12	punct	12:punct	XML=</w>
+
+# sent_id = GUM_academic_exposure-3
+# s_prominence = 3
+# s_type = decl
+# transition = establishment
+# text = Of interest here, studies suggest that, despite the difficulties in acquiring L2 grammar, adult learners can approximate native-like levels of use and neurocognitive processing [12]–[15].
+1	Of	of	ADP	IN	_	2	case	2:case	Discourse=attribution-positive:7->8:1
+2	interest	interest	NOUN	NN	Number=Sing	6	obl	6:obl:of	_
+3	here	here	ADV	RB	PronType=Dem	6	advmod	6:advmod	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	studies	study	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=(10-abstract-new-cf4-1-sgl)
+6	suggest	suggest	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7	that	that	SCONJ	IN	_	20	mark	20:mark	Discourse=adversative-concession:8->14:1|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	7:punct	_
+9	despite	despite	ADP	IN	_	11	case	11:case	Discourse=adversative-concession:9->11:0
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(11-abstract-new-cf6-2-sgl
+11	difficulties	difficulty	NOUN	NNS	Number=Plur	20	obl	20:obl:despite	_
+12	in	in	SCONJ	IN	_	13	mark	13:mark	Discourse=elaboration-attribute:10->9:0
+13	acquiring	acquire	VERB	VBG	VerbForm=Ger	11	acl	11:acl:in	_
+14	L2	L2	NOUN	NN	Number=Sing	15	compound	15:compound	Entity=(7-abstract-giv:act-cf1*-2-coref(3-abstract-giv:act-cf2-1-coref)
+15	grammar	grammar	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=7)11)|SpaceAfter=No
+16	,	,	PUNCT	,	_	11	punct	11:punct	_
+17	adult	adult	ADJ	JJ	Degree=Pos	18	amod	18:amod	Discourse=same-unit_m:11->8:0|Entity=(12-person-new-cf3-2-sgl
+18	learners	learner	NOUN	NNS	Number=Plur	20	nsubj	20:nsubj	Entity=12)
+19	can	can	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	20	aux	20:aux	_
+20	approximate	approximate	VERB	VB	VerbForm=Inf	6	ccomp	6:ccomp	_
+21	native	native	ADJ	JJ	Degree=Pos	23	compound	23:compound	Entity=(13-abstract-new-cf5-4-coref|SpaceAfter=No|XML=<w>
+22	-	-	PUNCT	HYPH	_	21	punct	21:punct	SpaceAfter=No
+23	like	like	ADJ	JJ	Degree=Pos	24	amod	24:amod	XML=</w>
+24	levels	level	NOUN	NNS	Number=Plur	20	obj	20:obj	_
+25	of	of	ADP	IN	_	26	case	26:case	_
+26	use	use	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	Entity=(14-event-new-cf7-1-sgl)
+27	and	and	CCONJ	CC	_	29	cc	29:cc	_
+28	neurocognitive	neurocognitive	ADJ	JJ	Degree=Pos	29	amod	29:amod	Entity=(15-event-new-cf8-2-sgl
+29	processing	processing	NOUN	NN	Number=Sing	26	conj	24:nmod:of|26:conj:and	Entity=15)13)
+30	[	[	PUNCT	-LRB-	_	31	punct	31:punct	Discourse=explanation-evidence:12->8:2|SpaceAfter=No|XML=<w>
+31	12	12	NUM	CD	NumForm=Digit|NumType=Card	6	dep	6:dep	Entity=(16-abstract-new-cf9-1-sgl)|SpaceAfter=No
+32	]	]	PUNCT	-RRB-	_	31	punct	31:punct	SpaceAfter=No
+33	–	-	SYM	SYM	_	35	case	35:case	SpaceAfter=No
+34	[	[	PUNCT	-LRB-	_	35	punct	35:punct	SpaceAfter=No
+35	15	15	NUM	CD	NumForm=Digit|NumType=Card	31	nmod	31:nmod:to	Entity=(17-abstract-new-cf10-1-sgl)|SpaceAfter=No
+36	]	]	PUNCT	-RRB-	_	35	punct	35:punct	SpaceAfter=No
+37	.	.	PUNCT	.	_	6	punct	6:punct	XML=</w>
